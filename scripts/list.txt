@@ -1,0 +1,6 @@
+# example list.txt - one path per line
+C:\msys64\mingw64\bin
+C:\ProgramData\chocolatey\bin
+C:\Program Files\Git
+C:\Program Files\Git\bin
+C:\Program Files\GitHub CLI

@@ -1,0 +1,13 @@
+# Ignore generated artifacts and temp files
+*_set_user_path_tmp.ps1
+out.vcd
+*.wlf
+*.vcd
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

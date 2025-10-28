@@ -1,0 +1,16 @@
+name: CI - Pathloader checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-path:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run path checker
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          ./scripts/check_user_path.ps1
