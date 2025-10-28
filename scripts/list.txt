@@ -4,3 +4,6 @@ C:\ProgramData\chocolatey\bin
 C:\Program Files\Git
 C:\Program Files\Git\bin
 C:\Program Files\GitHub CLI
+C:\Users\user\AppData\Local\Programs\Python\Python314\Scripts\
+C:\Users\user\AppData\Local\Programs\Python\Python314\
+C:\Users\user\AppData\Local\Programs\Python\Launcher\
