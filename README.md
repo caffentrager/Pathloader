@@ -1,15 +1,15 @@
-Pathloader ? Windows 사용자 PATH(HKCU) 관리 유틸리티
+Pathloader - Windows 사용자 PATH(HKCU) 관리 유틸리티
 
 간단한 설명
 Pathloader는 Windows에서 사용자 수준(HKCU)의 PATH 환경변수를 쉽게 관리하도록 돕는 작은 스크립트 모음입니다.
 `scripts/list.txt`에 도구의 bin 경로를 적고, 체크 스크립트로 누락 여부를 확인한 뒤 배치 파일로 누락된 항목을 사용자 PATH에 추가하는 흐름으로 설계되어 있습니다.
 
 주요 파일
-- `scripts/check_user_path.ps1`  ? `list.txt`에 명시된 경로들이 사용자 PATH에 있는지 검사합니다.
-- `scripts/set_user_path.bat`    ? `list.txt` 또는 명령행 인자로 전달된 세미콜론(;) 구분 경로들을 사용자 PATH에 선행(prepend)으로 추가합니다.
-- `scripts/list.txt`             ? 예시 경로 목록(한 줄에 하나, `#`으로 주석 처리 가능).
-- `.github/workflows/ci.yml`     ? (옵션) Windows runner에서 체크 스크립트를 실행하도록 구성된 예시 워크플로.
-- `LICENSE`, `.gitignore`        ? 라이선스와 git 무시 규칙.
+- `scripts/check_user_path.ps1`  - `list.txt`에 명시된 경로들이 사용자 PATH에 있는지 검사합니다.
+- `scripts/set_user_path.bat`    - `list.txt` 또는 명령행 인자로 전달된 세미콜론(;) 구분 경로들을 사용자 PATH에 선행(prepend)으로 추가합니다.
+- `scripts/list.txt`             - 예시 경로 목록(한 줄에 하나, `#`으로 주석 처리 가능).
+- `.github/workflows/ci.yml`     - (옵션) Windows runner에서 체크 스크립트를 실행하도록 구성된 예시 워크플로.
+- `LICENSE`, `.gitignore`        - 라이선스와 git 무시 규칙.
 
 빠른 시작 (Quick start)
 1) 저장소 가져오기
